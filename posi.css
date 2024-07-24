@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+}
+body{
+    position: relative;
+    height: 150vh;
+    background: url('https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg?w=900&t=st=1721647145~exp=1721647745~hmac=a96eb161a707b6e6e91df0236069f3a38dec1bd98f276a0b62f13ce4e43dff73.jpg') no-repeat center center;
+    background-size: cover;
+    background-color: rgb(30, 30, 30);
+}
+header{
+    position: relative;
+   padding: 10px;
+}
+.pichead   {
+    position: absolute;
+    top:16%;
+    left: 3%;
+}
+.pichead img{
+    box-shadow: 3px 2px 8px  rgba(255, 255, 255, 0.5);
+    width: 80px;
+    height: 80px;
+}
+header h1{
+    margin-left:150px ;
+    display: inline;
+    color: white;
+    box-shadow: 2px 2px 4px  rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    font-weight: 700;
+}
+.home img{
+    position: absolute;
+    width: 60px;
+    right:60px;
+    top: 20%;
+    box-shadow: -1px 1px 4px rgba(255, 255, 255, 0.785);
+    
+}
+.home img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.headtext{
+    margin-top: 50px;
+    text-align: center;
+}
+hr{
+    margin-bottom: 40px;
+    width: 400px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+.headtext h1{
+    color: white;
+    font-size: 42px;
+}
+.container {
+    width: 660px;
+    margin: auto;
+}
+.image-box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: -5px -5px 8px  rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s;
+}
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-box:hover {
+    transform: scale(1.05);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+    transition: opacity 0.3s;
+    color: white;
+}
+footer{
+    position: absolute;
+    bottom: -2%;
+    width: 100%;
+   bottom: 0;
+   padding: 0px 0px 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.462);
+}
+footer p{
+    color: white;
+}
+.social-icons{
+    margin-top: 20px;
+
+}
+.social-icons a{
+    font-size: 24px;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: #fff;
+
+}
+.copyright{
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+}
